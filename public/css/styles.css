@@ -1,0 +1,166 @@
+body {
+    background-color: gold;
+	font-family: roboto, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+* {
+    margin: 0;
+}
+
+a {
+	color: #666;
+	text-decoration:none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration:none;
+}
+
+main {
+    background-color: #ebebeb;
+	text-align: center;
+	width: 90%;
+    padding: 15px;
+}
+
+.logo {
+	width: 200px;
+}
+
+
+.producto {
+    margin: 15px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.datos_producto {
+    border-top: 1px solid #ebebeb;
+    padding: 10px;
+
+}
+
+.fa-truck {
+    color: #39b54a;
+    border-radius: 50%;
+  padding: 5px;
+  border:1px solid #39b54a;
+}
+
+.imagen_producto {
+    width: 200px;
+}
+
+#ult_visita {
+    margin: 15px;
+}
+
+.caja_producto_img {
+    text-align: center;
+}
+
+#ult_visita h1 {
+    font-size: 24px ;
+    color: #666;
+}
+
+#ult_visita .caja_producto .precio {
+    font-size: 18px;
+  }
+  
+#ult_visita  .caja_producto .oferta {
+    font-size: 16px;
+    color: #39b54a;
+  }
+  
+#ult_visita .caja_producto .nombre_producto {
+    font-size: 16px;
+    margin: 10px 0 0 0;
+    color: #666;
+  }
+
+#ofertas h1 {
+    font-size: 24px ;
+    color: #666;
+}
+
+.cuotas {
+    margin: 0 0 20px 0;
+}
+
+
+
+
+/* Navegación en tablets */
+
+@media (min-width: 361px) {
+    header .menu-bullets,
+    header .menu-bullets-2 {
+      display: block;
+    }
+  
+    header .menu-hambur {
+      display: none;
+    }
+  }
+  
+  /* desktop */
+  @media (min-width: 769px) {
+    header .menu-bullets,
+    header .menu-bullets-2 {
+      display: block;
+    }
+    header .menu-hambur {
+      display: none;
+    }
+  }
+  
+  /* desktop y tablet */
+  @media (min-width: 361px) {
+    main {
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+  }
+  
+  /* mobile */
+  @media (max-width: 360px) {
+    header .menu-bullets,
+    header .menu-bullets-2 {
+      display: none;
+    }
+  
+    header .menu-hambur {
+      display: block;
+    }
+  }
+
+
+
+
+
+
+
+
+footer {
+	background-color: white;
+	text-align: center;
+	font-size: 12px;	
+    padding: 20px 40px 40px 60px;
+}
+footer h2 {
+    color: #000;
+    font-size: medium;
+    margin: 0 0 0 0;
+    font-weight: bold;
+}
+
+footer i{
+    color: #1259c3;
+    margin: 0 0 10px 0;
+    font-size: 18px !important;
+    margin: 20px 0 0 0 ;
+}
+
+
+
