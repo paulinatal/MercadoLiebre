@@ -25,8 +25,7 @@
   /* Estilos para el encabezado del menú */
   #encabezado_menu {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+
   }
   
   .menu-bullets,
